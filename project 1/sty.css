@@ -1,0 +1,134 @@
+
+.money-green {
+    background-color: #85bb65; /* Money green */
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #f9f9f9; /* Light gray */
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+} 
+
+h1 { 
+    text-align: center; 
+    color: #333; /* Dark gray */
+    margin-bottom: 20px; 
+    font-weight: bold; /* Make the heading bold */
+}
+
+.monthly-expenses {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold; /* Make the label bold */
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold; /* Make the button text bold */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+.expense-table h2 {
+    font-weight: bold; /* Make the heading bold */
+    color: #333; /* Dark gray */
+}
+
+.expense-table { 
+    border: 2px solid #ddd; /* Light gray */
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+} 
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+
+thead th { 
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 10px; 
+    text-align: left; 
+    border-bottom: 2px solid #ddd; /* Light gray */
+    font-weight: bold; /* Make the table header bold */
+} 
+
+tbody td { 
+    padding: 10px; 
+    border-top: 1px solid #ddd; /* Light gray */
+} 
+
+.delete-btn { 
+    color: red; 
+    cursor: pointer; 
+} 
+
+.total-amount { 
+    padding: 10px; 
+    text-align: right; 
+    background-color: #f2f2f2; /* Light gray */
+    border-top: 2px solid #ddd; /* Light gray */
+}
+
+.monthly-savings {
+    text-align: right;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue */
+    border-top: 2px solid #ddd; /* Light gray */
+    font-weight: bold; /* Make the savings text bold */
+}
+
+#monthly-savings {
+    font-weight: bold; /* Make the monthly savings amount bold */
+}
+
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.8); /* Red with transparency */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #f9f9f9; /* Light gray */
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add background image */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/772/741/original/holding-money-cartoon-illustration-vector.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+} 
